@@ -51,23 +51,23 @@ The EDA involves:
 The hypotheses tested and corresponding visualizations include:
 
     - **Sales Analysis**:
-        - Group by brand, department, category, subcategory, and product name to count the total number of sales and display the top and bottom 5 in bar graphs.
+        - Group by brand, department, category, and product name to count the total number of sales and display the top and bottom 5 in bar graphs.
     - **Price Analysis**:
-        - Check if PRICE_RETAIL is the same as PRICE_CURRENT.
-        - Create a discount column and a discount data frame for further analysis.
+        - Check if `price_retail` is the same as `price_current`.
+        - Create a `discount` column to the data frame and create a new discount data frame for further analysis
     - **Discount Analysis**:
-        - Bar plots for the top 5 brands, departments, categories, subcategories, and products on discount.
+        - Bar plots for the top 5 brands, departments, categories, and products on discount.
     - **Sales Distribution**:
         - Count the total number of sales by brand, department, and category, displaying them by percentage.
     - **Revenue Analysis**:
-        - Aggregate by PRICE_CURRENT and group by necessary columns to calculate total revenue.
+        - Aggregate by `price_current` and group by necessary columns to calculate total revenue.
         - Show bar charts of the highest and lowest revenue by brands.
 
 ## Visualizations
-
-- Bar graphs showing top and bottom entities (brands, departments, categories, subcategories, products) by sales.
+FYI: Bar graphs are in skyblue color for top line and grey for bottom line
+- Bar graphs showing top and bottom entities (brands, departments, categories, products) by sales.
 - Bar graphs illustrating the impact of discounts.
-- Percentage distributions of sales by brand, department, and category.
+- Percentage distributions of sales by brand, department and category.
 - Revenue bar charts highlighting financial performance by brand.
 
 ## Results & Insights
@@ -79,28 +79,6 @@ The hypotheses tested and corresponding visualizations include:
 
 **Product Popularity**: Insights into the most and least popular products can guide product development, discontinuation decisions, and targeted marketing campaigns.
 
+
 ## Conclusion
 The comprehensive analysis of Walmart's Grocery department sales data reveals significant trends in brand performance, departmental sales, and the impact of pricing and promotions on consumer behavior. These insights can be leveraged to enhance strategic decision-making, optimize inventory and promotions, and ultimately improve overall business performance. The visualizations and findings presented in this project provide a valuable resource for understanding and addressing key factors that drive sales and customer satisfaction at Walmart.
-- **Brand Analysis**: Identified top and bottom brands by total sales and average current price.
-- **Department Analysis**: Highlighted top and bottom departments by total sales and number of products.
-- **Category Analysis**: Determined top and bottom categories by total sales and number of products.
-- **Subcategory Analysis**: Analyzed subcategories within departments for unique counts and sales.
-- **Discount Analysis**: Evaluated the impact of discounts across brands, departments, categories, and products.
-- **Revenue Analysis**: Calculated total revenue by brand, identifying those with highest and lowest contributions.
-
-## Usage
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/walmart-grocery-sales-analysis.git
-    ```
-
-2. Install the necessary packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Run the analysis script:
-    ```bash
-    python analysis.py
-    ```
