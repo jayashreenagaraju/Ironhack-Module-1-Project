@@ -29,6 +29,7 @@ The dataset includes product information such as prices, sizes, promotions, and 
 1. **Setup**
     - Imported necessary libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`.
     - Loaded the dataset using YAML configuration.
+    - Created `function.py` to have functions for code reusability
 
 2. **Data Cleaning and Preprocessing**
     - Printed information and shape of the dataframe.
