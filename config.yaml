@@ -1,2 +1,3 @@
 data:
   raw: "../data/raw/WMT_Grocery_202209.csv"
+  cleaned: "../data/cleaned/WMT_Grocery_202209.csv"
